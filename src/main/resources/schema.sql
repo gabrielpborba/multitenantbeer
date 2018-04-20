@@ -1,0 +1,15 @@
+CREATE TABLE DATASOURCECONFIG (
+	id IDENTITY PRIMARY KEY,
+	driverclassname VARCHAR(255),
+	url VARCHAR(255),
+	name VARCHAR(255),
+	username VARCHAR(255),
+	password VARCHAR(255),
+	initialize BOOLEAN
+);
+
+CREATE TABLE BEER (
+	id IDENTITY PRIMARY KEY,
+	nome VARCHAR(255),
+	tipo VARCHAR(255)
+);
